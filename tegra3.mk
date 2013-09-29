@@ -85,10 +85,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     $(LOCAL_PATH)/prebuilt/usr/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl
 
-# Common ramdisk files
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ramdisk/init.tegra3-common.rc:root/init.tegra3-common.rc
-
 # Lights
 PRODUCT_PACKAGES += \
     lights.tegra
@@ -134,7 +130,7 @@ PRODUCT_PACKAGES += \
 # Video
 PRODUCT_PACKAGES += \
     libstagefrighthw
-
+    
 # iw
 PRODUCT_PACKAGES += \
     iw 
