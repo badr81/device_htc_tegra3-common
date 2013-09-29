@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
     pollyd
 
 PRODUCT_PACKAGES += \
-    hostapd_cli
+    hostapd_cli \
+    Tegra3Parts
 
 # Audio
 PRODUCT_PACKAGES += \
